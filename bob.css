@@ -1,7 +1,7 @@
 
 :root {
-    --amarillo: #ff0000;
-    --amarilloPalido: #00eaff;
+    --amarillo: #E9F802;
+    --amarilloPalido: #F7FF7B;
     --negro: #000;
     --negroOpa: rgba(0, 0, 0, 0.25);
     --blanco: #fff;
@@ -9,7 +9,6 @@
     --naranja: #FF9417;
     --rojo: #CA1111;
     --cafe: #AD6737;
-
 
     --valoBorder: 5px solid #000;
 }
@@ -64,6 +63,7 @@ body{
         left: 0px;
     }
 }
+
 /*____________OJOS____________*/
 .ojos{
     position: absolute;
@@ -154,6 +154,7 @@ body{
     top: 10px;
     transform: rotate(-45deg);
 }
+
 /*____________NARIZ____________*/
 .nariz{
     width: 20px;
@@ -168,6 +169,7 @@ body{
     z-index: 10000;
     transition: .5s all;
 }
+
 /*____________BOCA____________*/
 .boca{
     width: 200px;
@@ -180,6 +182,7 @@ body{
     border-bottom: var(--valoBorder);
     z-index: 10;
 }
+
 .dientes{
     position: relative;
     top: 80px;
@@ -192,6 +195,7 @@ body{
     border: var(--valoBorder);
     display: inline-block;
 }
+
 .mejilla{
     width: 30px;
     height: 20px;
@@ -208,6 +212,7 @@ body{
 .mejilla.segunda{
     left: 177px;
 }
+
 /*____________CAMISA____________*/
 .camisa{
     width: 100%;
@@ -235,6 +240,7 @@ body{
     left: 180px;
     transform: rotate(-30deg);
 }
+
 .cuelloCorbata{
     width: 40px;
     height: 40px;
@@ -257,6 +263,7 @@ body{
     z-index: 40;
     transform: rotate(45deg);
 }
+
 /*____________PANTALON____________*/
 .pantalones{
     width: 100%;
@@ -286,6 +293,7 @@ body{
 .cinturon.cuarto{
     right: 20px;
 }
+
 /*____________POROS____________*/
 .poro{
     width: 40px;
@@ -295,6 +303,7 @@ body{
     border-radius: 50%;
     z-index: 1;
 }
+
 .poro.primero{
     top: 230px;
     left: 20px;
